@@ -10,10 +10,8 @@
 ## Introduction
 The One-Wheel Electric Skateboard, developed as a mechatronics project  exemplifies a blend of electrical and mechanical engineering concepts. This skateboard features a custom-fabricated frame, strategically designed to incorporate a hub motor, optimizing for both size and weight efficiency. Central to its operation is the integration of asensor technology, specifically an MPU9250 9-axis Inertial Measurement Unit (IMU). We employed a Kalman filter algorithm to accurately interpret the IMU data, deriving precise Euler angles essential for the skateboard's balance and control. This data plays a critical role in achieving a self-balancing mechanism akin to an inverted pendulum, accomplished through the use of interrupts and the I2C communication protocol. 
 
-<!-- <p align="center">
-  <img src="imgs/sk_main.png"width="300" >
-</p> -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7iWEqQvRhCs?si=BWRw_LM9oHoKYKHZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![IMAGE ALT TEXT HERE](imgs/yt.png)](https://youtu.be/7iWEqQvRhCs?si=-Lw9TyTm8WuFszKZ)
 <!-- 
 <table align="center">
   <tr>
@@ -81,7 +79,7 @@ The One-Wheel Electric Skateboard, developed as a mechatronics project  exemplif
 - Achieves a self-balancing mechanism akin to an inverted pendulum system.
 
 <p align="center">
-  <img src="imgs/imu.gif"width="300" >
+  <img src="imgs/imu.gif"width="600" >
 </p>
 
 
